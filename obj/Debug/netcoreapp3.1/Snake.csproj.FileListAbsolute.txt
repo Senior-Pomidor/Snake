@@ -1,0 +1,13 @@
+F:\TProger\Books + Обучалки\GeekBrains\Snake\bin\Debug\netcoreapp3.1\Snake.exe
+F:\TProger\Books + Обучалки\GeekBrains\Snake\bin\Debug\netcoreapp3.1\Snake.deps.json
+F:\TProger\Books + Обучалки\GeekBrains\Snake\bin\Debug\netcoreapp3.1\Snake.runtimeconfig.json
+F:\TProger\Books + Обучалки\GeekBrains\Snake\bin\Debug\netcoreapp3.1\Snake.runtimeconfig.dev.json
+F:\TProger\Books + Обучалки\GeekBrains\Snake\bin\Debug\netcoreapp3.1\Snake.dll
+F:\TProger\Books + Обучалки\GeekBrains\Snake\bin\Debug\netcoreapp3.1\Snake.pdb
+F:\TProger\Books + Обучалки\GeekBrains\Snake\obj\Debug\netcoreapp3.1\Snake.csprojAssemblyReference.cache
+F:\TProger\Books + Обучалки\GeekBrains\Snake\obj\Debug\netcoreapp3.1\Snake.csproj.CoreCompileInputs.cache
+F:\TProger\Books + Обучалки\GeekBrains\Snake\obj\Debug\netcoreapp3.1\Snake.AssemblyInfoInputs.cache
+F:\TProger\Books + Обучалки\GeekBrains\Snake\obj\Debug\netcoreapp3.1\Snake.AssemblyInfo.cs
+F:\TProger\Books + Обучалки\GeekBrains\Snake\obj\Debug\netcoreapp3.1\Snake.dll
+F:\TProger\Books + Обучалки\GeekBrains\Snake\obj\Debug\netcoreapp3.1\Snake.pdb
+F:\TProger\Books + Обучалки\GeekBrains\Snake\obj\Debug\netcoreapp3.1\Snake.genruntimeconfig.cache
