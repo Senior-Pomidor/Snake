@@ -6,7 +6,8 @@ namespace Snake
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("First program on C#");
+            Console.ReadLine();
         }
     }
 }
