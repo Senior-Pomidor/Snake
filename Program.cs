@@ -14,16 +14,18 @@ namespace Snake
             // Draw(x1, y1, sym1);
 
         // подход ООП
-            Point p1 = new Point();
-            p1.x = 1;
-            p1.y = 2;
-            p1.sym = '*';
+            // запись без конструктора
+            // Point p1 = new Point();
+            // p1.x = 1;
+            // p1.y = 2;
+            // p1.sym = '*';
+            // p1.Draw();
+
+            // запись с конструктором
+            Point p1 = new Point(1, 2, '*');
             p1.Draw();
 
-            Point p2 = new Point();
-            p2.x = 4;
-            p2.y = 5;
-            p2.sym = '#';
+            Point p2 = new Point(4, 5, '#');
             p2.Draw();
 
             Console.ReadLine();
