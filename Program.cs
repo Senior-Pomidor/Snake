@@ -22,15 +22,22 @@ namespace Snake
             // p1.sym = '*';
             // p1.Draw();
 
+            Console.SetBufferSize(120, 30);
+
+
+            // отрисовка рамки
+            HorizontalLine topLine = new HorizontalLine(0, 78, 0, '-');
+            HorizontalLine bottomLine = new HorizontalLine(0, 78, 24, '-');
+            VerticalLine leftLine = new VerticalLine(0, 24, 0, '!');
+            VerticalLine rightLine = new VerticalLine(0, 24, 78, '!');
+            topLine.Draw();
+            bottomLine.Draw();
+            leftLine.Draw();
+            rightLine.Draw();
+            
             // запись с конструктором
             Point p1 = new Point(1, 2, '*');
             p1.Draw();
-
-            Point p2 = new Point(4, 5, '#');
-            p2.Draw();
-
-            HorizontalLine list = new HorizontalLine(5, 10, 8, '+');
-            list.Draw();
 
             // класс лист
             // List<int> numList = new List<int>();
