@@ -29,18 +29,20 @@ namespace Snake
 
 
             // отрисовка рамки
-            HorizontalLine topLine = new HorizontalLine(0, 78, 0, '-');
-            HorizontalLine bottomLine = new HorizontalLine(0, 78, 24, '-');
-            VerticalLine leftLine = new VerticalLine(0, 24, 0, '!');
-            VerticalLine rightLine = new VerticalLine(0, 24, 78, '!');
+            HorizontalLine topLine = new HorizontalLine(0, 78, 0, '+');
+            HorizontalLine bottomLine = new HorizontalLine(0, 78, 24, '+');
+            VerticalLine leftLine = new VerticalLine(0, 24, 0, '+');
+            VerticalLine rightLine = new VerticalLine(0, 24, 78, '+');
             topLine.Draw();
             bottomLine.Draw();
             leftLine.Draw();
             rightLine.Draw();
             
             // запись с конструктором
+            // отрисовка точек
             Point p = new Point(4, 5, '*');
             Snake snake = new Snake(p, 4, Direction.RIGHT);
+            snake.Draw();
 
             // класс лист
             // List<int> numList = new List<int>();
