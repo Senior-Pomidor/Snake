@@ -2,10 +2,8 @@ using System.Collections.Generic;
 
 namespace Snake
 {
-    public class VerticalLine
+    public class VerticalLine : Figure
     {
-        List<Point> plist;
-
         public VerticalLine(int yTop, int yBottom, int x, char sym)
         {
             plist = new List<Point>();
@@ -14,14 +12,6 @@ namespace Snake
             {
                 Point p = new Point(x, y, sym);
                 plist.Add(p);
-            }
-        }
-
-        public void Draw()
-        {
-            foreach(Point p in plist)
-            {
-                p.Draw();
             }
         }
     }

@@ -2,10 +2,9 @@ using System.Collections.Generic;
 
 namespace Snake
 {
-    public class HorizontalLine
+    public class HorizontalLine : Figure
+    // HorizontalLine наследуется от класса Figure
     {
-        List<Point> plist;
-
         public HorizontalLine(int xLeft, int xRight, int y, char sym)
         {
             plist = new List<Point>();
@@ -14,14 +13,6 @@ namespace Snake
             {
                 Point p = new Point(x, y, sym);
                 plist.Add(p);
-            }
-        }
-
-        public void Draw()
-        {
-            foreach(Point p in plist)
-            {
-                p.Draw();
             }
         }
     }
