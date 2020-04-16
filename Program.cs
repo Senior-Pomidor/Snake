@@ -29,6 +29,10 @@ namespace Snake
 
             Console.CursorVisible = false;
 
+            FoodCreator foodCreator = new FoodCreator(120, 30, '$');
+            Point food = foodCreator.CreateFood();
+            food.Draw();
+
             while(true)
             {
                 if(Console.KeyAvailable)
