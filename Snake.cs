@@ -9,7 +9,7 @@ namespace Snake
 {
     public class Snake : Figure
     {
-        Direction direction;
+        public Direction direction;
         public Snake(Point tail, int length, Direction _direction)
         {
             direction = _direction;
@@ -22,12 +22,12 @@ namespace Snake
             }
         }
 
-        internal void Move()
+        public void Move()
         {
             Point tail = pList.First();
             pList.Remove(tail);
             Point head = GetNextPoint();
-            pList.Remove(head);
+            pList.Add(head);
 
             tail.Clear();
             head.Draw();
@@ -42,3 +42,10 @@ namespace Snake
         }
     }
 }
+
+
+
+// +      **Unhandled exception. System.InvalidOperationException: Sequence contains no elements
+//    at System.Linq.ThrowHelper.ThrowNoElementsException()                      +
+//    at System.Linq.Enumerable.Last[TSource](IEnumerable`1 source)              +
+//    at Snake.Snake.GetNextPoint() in F:\TProger\Books + Обучалки\GeekBrains\Snake\Snake.cs:line 38
