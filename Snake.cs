@@ -40,12 +40,17 @@ namespace Snake
             nextPoint.Move(1, direction);
             return nextPoint;
         }
+
+        public void HandleKey(ConsoleKey key)
+        {
+            if(key == ConsoleKey.LeftArrow)
+                direction = Direction.LEFT;
+            else if(key == ConsoleKey.RightArrow)
+                direction = Direction.RIGHT;
+            else if(key == ConsoleKey.DownArrow)
+                direction = Direction.DOWN;
+            else if(key == ConsoleKey.UpArrow)
+                direction = Direction.UP;
+        }
     }
 }
-
-
-
-// +      **Unhandled exception. System.InvalidOperationException: Sequence contains no elements
-//    at System.Linq.ThrowHelper.ThrowNoElementsException()                      +
-//    at System.Linq.Enumerable.Last[TSource](IEnumerable`1 source)              +
-//    at Snake.Snake.GetNextPoint() in F:\TProger\Books + Обучалки\GeekBrains\Snake\Snake.cs:line 38
