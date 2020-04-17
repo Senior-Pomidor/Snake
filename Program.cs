@@ -12,6 +12,9 @@ namespace Snake
         {
             Console.SetBufferSize(120, 30);
 
+            Walls walls = new Walls(120, 30);
+            walls.Draw();
+
             // отрисовка рамки
             HorizontalLine topLine = new HorizontalLine(0, 78, 0, '+');
             HorizontalLine bottomLine = new HorizontalLine(0, 78, 24, '+');
@@ -29,7 +32,7 @@ namespace Snake
 
             Console.CursorVisible = false;
 
-            FoodCreator foodCreator = new FoodCreator(120, 30, '$');
+            FoodCreator foodCreator = new FoodCreator(77, 23, '$');
             Point food = foodCreator.CreateFood();
             food.Draw();
 
